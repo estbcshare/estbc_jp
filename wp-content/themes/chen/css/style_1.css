@@ -1,0 +1,109 @@
+﻿/*
+Theme Name:chen
+Theme URI: http://www.518theme.com/
+Description: 本套高级外贸企业网站设计开发: <a href="http://www.518theme.com/">518主题巴士</a>.
+Version: 1
+Author: 518theme
+Author URI: http://www.518theme.com/
+Copyright: (c) 518theme
+*/
+
+ul.sub-menu i {
+display: none;
+}
+span.name {
+width: 56%;
+}
+.p-tit {
+    font-size: 20px;
+    color: #353535;
+    margin-bottom: 15px;
+    height: 28px;
+    overflow: hidden;
+}
+.swiper-item .swiper-slide ul li {
+width:90%;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+.abox {
+    font-size: 0;
+    height: 30px;
+    overflow: hidden;
+}
+li.cat-item {
+float: right;
+}
+
+li.cat-item.current-cat a{
+    color: #fff;
+    background: #d33718;
+    box-shadow: 0 0 10px 2px #f7dcd6;
+}
+
+.list-right ul li a{
+
+	font-size: 16px;
+
+	color: #868686;
+
+	display: block;
+
+	padding-left: 15px;
+    height: 20px;
+    overflow: hidden;
+	background: url(../images/dot.png) left center no-repeat;
+
+}
+
+.list-right ul li:hover a{
+    height: 20px;
+    overflow: hidden;
+	background: url(../images/dot-on.png) left center no-repeat;
+	color: #d33718;
+
+}
+
+.list-right ul li{margin-bottom: 28px;}
+
+.list-right ul{margin-top: 30px;}
+
+.pagebox span a {
+    height: 20px;
+    overflow: hidden;
+    display: inline-flex;
+    white-space: nowrap;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+span.m-zhai a {
+    color: #9a9a9a;
+}
+.m-tab-box li {
+    float: left;
+    list-style: none;
+}
+p.m-news-tit {
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-wrap.m-news-user-info a {
+    font-size: .26rem;
+    color: #9a9a9a;
+}
+
+.m-news-info p.m-news-tit {
+
+    overflow: hidden;
+    display: inline-flex;
+}
+.flex-wrap.m-news-user-info a:first-child {
+    display: none;
+}
+
+p.zhaiz a {
+    font-size: 14px;
+    color: #a4a4a4;
+}
